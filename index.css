@@ -22,6 +22,7 @@ body{
   border-radius: 25px;
   box-shadow: 5px 5px 10px gray;
   position: relative;
+  overflow: hidden;
 }
 .left-border{
   display: flex;
@@ -126,10 +127,56 @@ ul{
 .txt{
   line-height: 1.6em;
 }
+.obj1{
+  width: 50px;
+  height: 48px;
+  position: absolute;
+  top: 96px;
+  left: 247px;
+  z-index: 2;
+  background-color: #E0E0E0;
+}
+.obj2{
+  width: 50px;
+  height: 21px;
+  position: absolute;
+  top: 60px;
+  left: 600px;
+  z-index: 2;
+  background-color: #E0E0E0;
+}
+.obj3{
+  width: 50px;
+  height: 48px;
+  position: absolute;
+  top: 540px;
+  left: 330px;
+  z-index: 2;
+  background-color: #E0E0E0;
+}
+.obj4{
+  width: 61px;
+  height: 61px;
+  border-radius: 50%;
+  position: absolute;
+  top: 540px;
+  left: 586px;
+  z-index: 1;
+  background-color: green;
+}
+.obj5{
+  width: 183px;
+  height: 183px;
+  border-radius: 50%;
+  position: absolute;
+  top: -80px;
+  left: 1030px;
+  z-index: 1;
+  background-color: green;
+}
 
 
-
-.footer {
+/* .footer {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -146,4 +193,4 @@ ul{
 
 .footer span {
   font-size: 14px;
-}
+} */
